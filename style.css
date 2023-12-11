@@ -57,7 +57,11 @@ a:hover{
 }
 
 .logo {
-    font-size: 1.5rem;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin: auto 3;
+
 
 }
 
@@ -171,8 +175,8 @@ section{
 
 .section__pic-container {
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 800px;
+    width: 800px;
     margin: auto 0;
 }
 
@@ -292,11 +296,16 @@ section{
 
 .details-container {
     padding: 1.5rem;
-    flex: 1;
+    flex: 5;
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(53, 53, 53);
+}
+
+.text-container {
+    display: flex;
+    
 }
 
 .section-container {
@@ -369,8 +378,8 @@ article .icon{
 }
 
 .project-title {
-    margin: 1rem;
     color: black;
+    margin: 2rem;
 }
 
 .projcet-btn {
